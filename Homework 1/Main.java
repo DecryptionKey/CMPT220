@@ -8,27 +8,34 @@ public class Main {
 
         //here's a good working example for you to reference!
         //first: we ask our user for our prompt
-        System.out.println("What is your name? ");
+        System.out.println("What is your name?");
         //second: we create a string variable and store the user input back to it
         String name = sc.nextLine();
         //third: we print it back out!
-        System.out.println("Hello, " + name + "! ");
-
-
+        System.out.println("\nHello, " + name + "!");
 
 
         //finish this one for me by receiving and printing the user's age back to them
-        System.out.println("How old are you? ");
+        //first: we ask our user for our prompt
+        System.out.println("\nHow old are you?");
+        //second: we create a string variable and store the user input back to it
+        String age = sc.nextLine();
+        //third: we print it back out!
+        System.out.println("\nYou are " + age + " years old!\n");
 
 
         //can you do some math for me? take these variable and print out the sum of them!
         int num1 = 10;
         int num2 = 37;
         //?
+        int sum = num1 + num2;
+        System.out.println("Number 1 + Number 2 = " + sum);
 
-
+        // Closing the scanner
+        sc.close();
 
     }
 }
+
 
 
