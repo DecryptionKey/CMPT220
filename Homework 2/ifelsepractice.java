@@ -9,10 +9,15 @@ import java.util.Scanner;
 * good luck!
 * */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
+    System.out.println("Welcome to ");
+    //Set up a scanner named user, in order to take user's input for the quiz.
+    Scanner user new Scanner(System.in);
+    
 
-
-
+    String userInput = sc.nextLine();
+    
+    user.close();
     }
 }
 

@@ -7,11 +7,14 @@ public class Main {
         int var1 = 4;
         if (var1 > 4){
             System.out.println("Var1 is greater than 4");
-        }else{
+        } else if (var1 == 4){    
+            System.out.println("Var1 is 4");
+        } else {
             System.out.println("Var1 is less than 4");
         }
+        
 
-        int var2 = 6;
+        int var2 = 6; 
         if (var2 == 5){
             System.out.println("Var2 is 5");
         } else if (var2 > 5){
@@ -33,12 +36,14 @@ public class Main {
 
 
         //for this section: why are we not entering the if statement?
+       
         if ("Marist" == "marist"){
             System.out.println("Marist college!");
         } else{
             System.out.println("Not marist college :(!");
         }
 
-
+    
     }
 }
+

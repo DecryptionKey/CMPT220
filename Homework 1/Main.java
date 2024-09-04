@@ -16,9 +16,10 @@ public class Main {
 
 
         //finish this one for me by receiving and printing the user's age back to them
+
         //first: we ask our user for our prompt
         System.out.println("\nHow old are you?");
-        //second: we create a string variable and store the user input back to it
+        //second: we create a string variable named "age" and store the user's name back to it
         String age = sc.nextLine();
         //third: we print it back out!
         System.out.println("\nYou are " + age + " years old!\n");
@@ -28,10 +29,13 @@ public class Main {
         int num1 = 10;
         int num2 = 37;
         //?
+
+        //Established an int variable named "sum" to store the sum of number 1 & 2.
         int sum = num1 + num2;
+        //Prints the sum of number 1 & 2 to the user.
         System.out.println("Number 1 + Number 2 = " + sum);
 
-        // Closing the scanner
+        // Closing the scanner 
         sc.close();
 
     }
