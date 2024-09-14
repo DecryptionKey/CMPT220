@@ -1,4 +1,3 @@
-
 public class Main {
     public static void main(String[] args) {
 
@@ -7,10 +6,10 @@ public class Main {
         int var1 = 4;
         if (var1 > 4){
             System.out.println("Var1 is greater than 4");
-        } else if (var1 == 4){    
-            System.out.println("Var1 is 4");
-        } else {
+        } else if (var1 < 4){    
             System.out.println("Var1 is less than 4");
+        } else {
+            System.out.println("Var1 is 4");
         }
         
 
@@ -46,4 +45,3 @@ public class Main {
     
     }
 }
-
