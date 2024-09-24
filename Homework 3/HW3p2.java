@@ -14,10 +14,10 @@ public class HW3p2 {
         //(factorial = X!, X being the user input, Factorials are every digit before X multiplied together)
         System.out.println("\nProblem 2");
         System.out.println("Enter a number and I will tell you the factorial: ");
-        int userNumber1 = user.nextInt();
 
         //here's a hint
-        long factorial = 1;
+        int userNumber1 = user.nextInt();
+        int factorial = 1;
 
         for (int i = 1; i <= userNumber1; i++){
         factorial *= i;
