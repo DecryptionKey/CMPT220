@@ -19,9 +19,22 @@ public class student{
         id = i;
     }
     
-    //new method
+    //HonorRoll method
 
+    public boolean honorRoll(){
+        return gpa > 3.6;
+    }
+
+    //StudentName method
+
+    public String studentName(){
+        return name;
+    }
     
-    //new method
+    //FreeLunch method
+
+    public boolean receivesFreeLunch(int randomWinnerID){
+        return id == randomWinnerID;
+    }
 
 }
